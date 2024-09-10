@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОПТІМУС ВІА</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/7990ebd2bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="menu">
+            <label 
+                class="menu__toggle-label"
+                for="menu-bars"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input 
+                class="menu__toggle"
+                type="checkbox" 
+                name="isBarsDisplayed" 
+                id="menu-bars"
+            >
+            <div class="menu__items">
+                <a class="menu__item" href="#preview">Головна</a>
+                <a class="menu__item" href="#projects">Наші проекти</a>
+                <a class="menu__item" href="#services">Послуги</a>
+                <a class="menu__item" href="#contacts">Контакти</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section id="preview" class="preview page">
+            <div class="preview__content page-content">
+                <article class="preview__description">
+                    <h1 class="preview__title">ОПТІМУС ВІА</h1>
+                    <p class="preview__text">"ОПТІМУС ВІА" – компанія, яка спеціалізується на виготовленні та укладанні бруківки. 
+                        Наша команда має багаторічний досвід і забезпечує високоякісні рішення для облаштування дворів, 
+                        тротуарів та доріг. Ми створюємо міцні, естетичні та довговічні поверхні, які не лише покращують 
+                        зовнішній вигляд, але й слугують надійним інфраструктурним елементом.
+                    </p>
+                </article>
+                <img 
+                    src="https://photographers.ua/thumbnails/pictures/12085/800xdsc_9076lvovskaya-progulka.jpg" 
+                    alt="Image of paving stones"
+                    class="preview__image"
+                >
+            </div>
+        </section>
+        <section id="projects" class="projects page">
+            <h2 class="projects__title common-title">Наші проекти</h2>
+            <ul class="projects__items page-content">
+                <li class="projects__item">
+                    <figure class="projects__image-wrapper">
+                        <img 
+                            src="https://brukivka.com.ua/wp-content/uploads/2020/08/736-img_5f40fde0955db.jpg" 
+                            alt="Image of paving stones"
+                            class="projects__item-image"
+                        >
+                        <figcaption class="projects__image-caption">Проект в Шевченківському районі</figcaption>
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure class="projects__image-wrapper">
+                        <img 
+                            src="https://miidvir.ua/cache/thumbnails/6/67_1920x1280_1_0_0.jpg" 
+                            alt="Image of paving stones"
+                            class="projects__item-image"
+                        >
+                        <figcaption class="projects__image-caption">Проект в Франківському районі</figcaption>
+                    </figure>
+                </li>
+                <li class="projects__item">
+                    <figure class="projects__image-wrapper">
+                        <img 
+                            src="https://miidvir.ua/upload/product-gallery/3/66.jpg" 
+                            alt="Image of paving stones"
+                            class="projects__item-image"
+                        >
+                        <figcaption class="projects__image-caption">Проект в Галицькому районі</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section id="services" class="services page">
+            <h2 class="services__title common-title">Послуги</h2>
+            <div class="services__content page-content">
+                <ul class="services__items">
+                    <li class="services__item">Будівництво житлових і нежитлових будівель</li>
+                    <li class="services__item">Виготовлення виробів із бетону для будівництва</li>
+                    <li class="services__item">Виробництво бетонних розчинів, готових для використання</li>
+                    <li class="services__item">Виробництво сухих будівельних сумішей</li>
+                    <li class="services__item">Надання ландшафтних послуг</li>
+                    <li class="services__item">Будівництво доріг і автострад</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contacts" class="contacts page">
+            <h2 class="contacts__title common-title">Контакти</h2>
+            <ul class="contacts__items page-content">
+                <li class="contacts__item">
+                    <i class="fa-solid fa-envelope contacts__item-icon"></i>
+                    <a 
+                        class="contacts__item-link" 
+                        href="mailto:optimus.via@ukr.net" 
+                        target="_blank"
+                    >optimus.via@ukr.net</a>
+                </li>
+                <li class="contacts__item">
+                    <i class="fa-solid fa-phone contacts__item-icon"></i>
+                    <a 
+                        class="contacts__item-link" 
+                        href="tel:380974616465" 
+                        target="_blank"
+                    >+380 97 461 64 65</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

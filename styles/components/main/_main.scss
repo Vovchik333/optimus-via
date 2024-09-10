@@ -1,0 +1,12 @@
+@use './components/contacts';
+@use './components/preview';
+@use './components/projects';
+@use './components/services';
+
+.main-content {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-color);
+}

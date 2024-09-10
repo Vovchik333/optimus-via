@@ -1,0 +1,11 @@
+@use './components/menu';
+
+.main-header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

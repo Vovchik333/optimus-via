@@ -1,0 +1,35 @@
+.contacts {
+    &__items {
+        flex-grow: 1;
+        display: flex;
+        gap: 20px;
+    }
+
+    &__item {
+        background-color: var(--secondary-color);
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 250px;
+    }
+
+    &__item-link {
+        &:hover {
+            color: var(--secondary-text-color);
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .contacts {
+        &__items {
+            flex-direction: column;
+        }
+    }
+}
+    
+@media only screen and (max-width: 479px) {
+    
+}
